@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background-image: url('./image/bg.jpg'); /* Replace './image/bg.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    width: 650px;;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+.wrapper h1{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area{
+    font-size: 15px;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    margin: 0 0 3px 10px;
+    align-items: flex-end;
+}
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #51644e;
+    border: 2px solid #51644e;
+    transition: all 0.3s ease;
+}
+.features ul li:hover{
+    color: #fff;
+    background: #51644e;
+}
+.features button{
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-style: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background:#51644e;
+}
